@@ -6,7 +6,7 @@
     "require": {
         "php": ">=8.1",
         "composer/installers": "^1.2",
-        "cweagans/composer-patches": "^2.0",
+        "cweagans/composer-patches": "^1.0",
         "drupal/activenet": "^1.0",
         "drupal/address": "^1.8",
         "drupal/addtoany": "^2.0",
@@ -20,7 +20,7 @@
         "drupal/ckeditor_bootstrap_buttons": "^1.2 || ^2.0.0",
         "drupal/ckeditor_font": "^1",
         "drupal/color": "^1.0",
-        "drupal/colorapi": "^1.1",
+        "drupal/colorapi": "^1.1 || ^2.0",
         "drupal/colorbutton": "^1",
         "drupal/confi": "^3.1",
         "drupal/config_update": "^1.6 || ^2 || ^2.0@alpha",
