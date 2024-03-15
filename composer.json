@@ -144,7 +144,7 @@
         "symfony/dom-crawler": "^6.2",
         "ycloudyusa/useless_machines": "dev-main",
         "ycloudyusa/y_lb": "^3.0.9",
-        "ycloudyusa/y_lb_demo_content": "dev-drupal102 || ^3.3",
+        "ycloudyusa/y_lb_demo_content": "^3.3",
         "drupal/lb_testimonial_blocks": "^1.0",
         "ycloudyusa/yusaopeny_activity_finder": "^4.3",
         "ymcatwincities/media_entity_document": "*",
