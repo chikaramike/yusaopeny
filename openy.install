@@ -1323,6 +1323,4 @@ function openy_update_8098() {
   $config_importer->importConfigs([
     'responsive_favicons.settings',
   ]);
-  // Clear all cache to rebuild cached favicon
-  drupal_flush_all_caches();
 }
