@@ -8,5 +8,6 @@ tags:
   - '<link rel="manifest" href="/site.webmanifest">'
   - '<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0089d0">'
   - '<meta name="msapplication-TileColor" content="#0060af">'
+  - '<meta name="msapplication-config" content="browserconfig.xml">'
   - '<meta name="theme-color" content="#ffffff">'
 remove_default: 1
