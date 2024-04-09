@@ -42,7 +42,7 @@
         "drupal/embed": "^1",
         "drupal/entity": "^1",
         "drupal/entity_browser": "^2",
-        "drupal/entity_clone": ">=2.0.0-beta4 || ^2",
+        "drupal/entity_clone": ">=2.0.0-beta5 || ^2",
         "drupal/entity_embed": "^1.5",
         "drupal/entity_reference_revisions": "^1.6",
         "drupal/features": "^5.0 || 5.0.x-dev@dev || ^5.0@alpha",
@@ -142,7 +142,7 @@
         "open-y-subprojects/ynorth_gxp_spots_proxy": "^1.0.1",
         "symfony/console": "^4.4.30 || ^5 || ^6",
         "symfony/dom-crawler": "^6.2",
-        "ycloudyusa/useless_machines": "dev-main",
+        "ycloudyusa/useless_machines": "<1.1 || dev-main",
         "ycloudyusa/y_lb": "^3.0.9",
         "ycloudyusa/y_lb_demo_content": "^3.0",
         "ycloudyusa/y_pef_schedule": "^1.0",
@@ -346,22 +346,9 @@
             "drupal/commerce_cart_api": {
                 "Allow Drupal 10": "https://git.drupalcode.org/project/commerce_cart_api/-/merge_requests/3.patch"
             },
-            "drupal/core": {
-                "podarok patch for stacktrace": "https://github.com/podarok/drupal/commit/5656ba39204d105ca7c26535ed963d0be5d3066e.diff",
-                "2484693 - Telephone Link field formatter InvalidArgumentException with 5 digits or fewer in the number": "https://www.drupal.org/files/issues/2484693-54.patch",
-                "2862702 - PrepareModulesEntityUninstallForm::formTitle does not exist": "https://www.drupal.org/files/issues/2862702-3.patch",
-                "2925890 - Invalid config structures can result in exceptions when saving a config entity": "https://www.drupal.org/files/issues/2022-08-22/2925890-54.patch",
-                "2922677 - Uncaught TypeError: Cannot read property 'replace' of undefined": "https://www.drupal.org/files/issues/2023-02-15/2922677-33.patch",
-                "3354876 - Media Thumbnail Formatter: alt and title null": "https://git.drupalcode.org/project/drupal/-/merge_requests/4291.diff",
-                "3291764 - The [0] hatch in misc/vertical-tabs.js causes issues if there are multiple forms with vertical tabs.": "https://www.drupal.org/files/issues/2023-04-27/3291764-8.patch",
-                "3145188 - Paragraphs fields cause overflow of content forms in Claro": "https://www.drupal.org/files/issues/2023-01-25/3145188-37_0.patch"
-            },
             "drupal/entity_browser": {
                 "2845037 - Fixed the issue of Call to a member function getConfigDependencyKey() on null on [Widget view], and [SelectionDisplay view]": "https://www.drupal.org/files/issues/2845037_15.patch",
                 "3104901 - Entity Browser used in a entity referenced field of a layout builder custom block is not working": "https://www.drupal.org/files/issues/2020-10-16/3104901-17.patch"
-            },
-            "drupal/entity_clone": {
-                "3050027: Entity clone does not work properly with Layout Builder block": "https://git.drupalcode.org/project/entity_clone/-/merge_requests/42.diff"
             },
             "drupal/jquery_colorpicker": {
                 "Use library directory instead vendor": "https://gist.githubusercontent.com/manachynskyi/3b059456ce97dd4380ff0c0e85f41696/raw/4cf7103c75849b2b474424fe9d8ad969192dd779/library_path_update.patch"
