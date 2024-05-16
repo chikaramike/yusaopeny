@@ -135,22 +135,22 @@
         "open-y-subprojects/openy_content_core": "^3.0",
         "open-y-subprojects/openy_custom": "^2.0",
         "open-y-subprojects/openy_daxko_gxp_syncer": "^1.2",
-        "open-y-subprojects/openy_features": "^3.0",
+        "open-y-subprojects/openy_features": "^3.2.0",
         "open-y-subprojects/openy_focal_point": "^1.0",
         "open-y-subprojects/openy_hours_formatter": "^2.0",
-        "open-y-subprojects/openy_map": "^4.16 || ^5.2",
+        "open-y-subprojects/openy_map": "^5.2",
         "open-y-subprojects/ynorth_gxp_spots_proxy": "^1.0.1",
         "symfony/console": "^4.4.30 || ^5 || ^6",
         "symfony/dom-crawler": "^6.2",
         "ycloudyusa/useless_machines": "<1.1 || dev-main",
-        "ycloudyusa/y_lb": "^3.0.9",
+        "ycloudyusa/y_lb": "^3.0.9 || ^3.4 || ^3.5",
         "ycloudyusa/y_lb_demo_content": "^3.0",
-        "ycloudyusa/yusaopeny_activity_finder": "^4.3",
+        "ycloudyusa/yusaopeny_activity_finder": "^4.3 || ^4.4",
         "ymcatwincities/media_entity_document": "*",
         "ymcatwincities/ymca_sync": "^8 || ^10",
         "ynorth-projects/openy_node_session": "^2.0",
         "ynorth-projects/openy_pef_gxp_sync": "1.0.0 || ^1.1.1",
-        "ynorth-projects/openy_repeat": "^2.1"
+        "ynorth-projects/openy_repeat": "^2.2 || ^2.3"
     },
     "require-dev": {
         "consolidation/robo": "^1.1.5 || ^2 || ^3 || ^4",
@@ -363,7 +363,7 @@
                 "Issue #3341978: TypeError: explode(): Argument #2 ($string) must be of type string, array given in explode().": "https://www.drupal.org/files/issues/2023-05-10/check-default-value-not-array-15044301-16.patch"
             },
             "drupal/plugin": {
-                "2647312 - Use SubFormState in plugin selectors": "https://www.drupal.org/files/issues/2020-07-22/2647312-32.patch"
+                "2647312 - Use SubFormState in plugin selectors": "https://www.drupal.org/files/issues/2024-05-14/2647312-38-use-subformstate.patch"
             },
             "drupal/video_embed_field": {
                 "Issue #3215817: Presentational attributes such as 'border', 'align', or 'bgcolor' are used. CSS should be used for styling instead.": "https://git.drupalcode.org/project/video_embed_field/-/merge_requests/3.diff",
@@ -382,8 +382,11 @@
             "drupal/responsive_favicons": {
                 "Issue #3376766: Incorrect path if Drupal is installed in subfolder": "https://git.drupalcode.org/project/responsive_favicons/-/merge_requests/6.diff"
             },
-          "drupal/editor_advanced_link": {
+            "drupal/editor_advanced_link": {
                 "Issue #3423208: Integrate a functionality of the CKEditor Bootstrap Buttons module": "https://git.drupalcode.org/project/editor_advanced_link/-/merge_requests/19.diff"
+            },
+            "drupal/scheduler": {
+                "Issue #3446881: Unhandled Warning: Undefined array key 'translatable'": "https://git.drupalcode.org/project/scheduler/-/merge_requests/140.diff"
             }
         }
     },
