@@ -7,16 +7,17 @@ set on a site-wide basis, so it's best to choose the colorway of your homepage
 to use as the favicon color. In the future this could be set per-page based on
 the colorway set in Y Styles.
 
-The blue favicon is default, but using another color only requires a small
-configuration change:
+The blue favicon is default, but using another color only requires some small
+configuration changes:
 
-1. Go to Admin > Configuration > User interface > Responsive favicons (`/admin/config/user-interface/responsive_favicons`)
+1. Go to Admin > Configuration > User interface > Responsive favicons (`/admin/config/user-interface/responsive_favicons`).
 2. Set **Path to responsive favicon files** to your color:
    - `/profiles/contrib/yusaopeny/assets/favicon/green`
    - `/profiles/contrib/yusaopeny/assets/favicon/purple`
    - `/profiles/contrib/yusaopeny/assets/favicon/red`
 3. Copy and paste the corresponding code from below into the **Favicon tags**
 block.
+4. Clear caches.
 
 ### Blue
 
