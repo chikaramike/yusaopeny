@@ -384,6 +384,9 @@
             },
             "drupal/scheduler": {
                 "Issue #3446881: Unhandled Warning: Undefined array key 'translatable'": "https://git.drupalcode.org/project/scheduler/-/merge_requests/140.diff"
+            },
+            "drupal/redirect": {
+                "Issue #3373123: Setting 'Enforce clean and canonical URLs.' breaks CSS aggregation on multilingual Drupal 10.1.x with browser caching enabled": "https://git.drupalcode.org/project/redirect/-/merge_requests/93.patch"
             }
         }
     },
