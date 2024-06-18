@@ -90,7 +90,7 @@
         "drupal/redirect": "^1",
         "drupal/responsive_favicons": "^2.0",
         "drupal/scheduler": "^2 || ^2.0@RC",
-        "drupal/search_api": "^1.35",
+        "drupal/search_api": "^1.31",
         "drupal/search_api_solr": "^4.3.3",
         "drupal/seven": "^1 || ^1.0@alpha",
         "drupal/simple_menu_icons": "^2.2 || ^3",
