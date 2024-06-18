@@ -390,6 +390,13 @@
             },
             "drupal/redirect": {
                 "Issue #3373123: Setting 'Enforce clean and canonical URLs.' breaks CSS aggregation on multilingual Drupal 10.1.x with browser caching enabled": "https://git.drupalcode.org/project/redirect/-/merge_requests/93.patch"
+            },
+            "drupal/search_api": {
+                "https://www.drupal.org/project/search_api_solr/issues/3449292#comment-15644442": "https://www.drupal.org/files/issues/2024-06-17/3454939-search-api-solr-core-10.patch",
+                "https://www.drupal.org/project/search_api_solr/issues/3449292#comment-15644442": "https://git.drupalcode.org/project/search_api/-/merge_requests/148.diff"
+            },
+            "drupal/search_api_solr": {
+                "https://www.drupal.org/project/search_api_solr/issues/3449292#comment-15644442": "https://www.drupal.org/files/issues/2024-06-17/search-api-solr-fatal-error-declaration-of-sleep-3449292-12.patch"
             }
         }
     },
