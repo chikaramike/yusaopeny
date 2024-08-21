@@ -346,6 +346,7 @@ function openy_import_content(array &$install_state) {
     'standard' => 'openy_standard_installation',
     'extended' => 'openy_extended_installation',
     'complete' => 'openy_complete_installation',
+    'small_y' => 'openy_small_y_installation',
   ];
   $migration_tag = $preset_tags[$preset];
   // Add core demo content.
