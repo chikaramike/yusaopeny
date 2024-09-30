@@ -76,7 +76,8 @@ small_y:
     - scheduler
     - search
     - seo
-    - small_y
+    - ws_small_y
+    - ws_small_y_lb_hero
     - translation
     - webform
     - y_layout_builder
