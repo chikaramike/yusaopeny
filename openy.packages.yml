@@ -414,3 +414,5 @@ small_y:
   modules:
     - ws_small_y
     - ws_small_y_lb_hero
+    - small_y_cards
+    - small_y_icon_grid
