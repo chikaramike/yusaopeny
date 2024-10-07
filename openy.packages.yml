@@ -418,3 +418,6 @@ small_y:
     - small_y_icon_grid
     - small_y_ping_pongs
     - small_y_tabs
+    - small_y_carousels
+    - ws_small_y_staff
+    - small_y_hero
