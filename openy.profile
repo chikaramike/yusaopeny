@@ -216,6 +216,9 @@ function openy_demo_content_configs_map($key = NULL) {
       'openy_demo_taxonomy',
       'y_lb_demo_content',
     ],
+    'small_y' => [
+      'small_y_demo_content',
+    ],
 
   ];
 
