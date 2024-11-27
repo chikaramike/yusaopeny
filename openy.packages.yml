@@ -414,10 +414,20 @@ small_y:
   help: 'Modules to customize the appearance and functionality of the distribution for small Ys.'
   modules:
     - ws_small_y
+    - small_y_accordions
+    - small_y_alerts
+    - small_y_articles
+    - small_y_branch
     - small_y_cards
+    - small_y_carousels
+    - small_y_donate
+    - small_y_editor
+    - small_y_events
+    - small_y_hero
     - small_y_icon_grid
     - small_y_ping_pongs
+    - small_y_search
     - small_y_tabs
-    - small_y_carousels
     - ws_small_y_staff
-    - small_y_hero
+    - ws_small_y_statistics
+    - ws_small_y_testimonials
