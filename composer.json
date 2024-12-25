@@ -171,6 +171,10 @@
     },
     "repositories": [
         {
+        "type": "vcs",
+        "url": "https://github.com/chikaramike/yusaopeny"
+    }
+        {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         },
